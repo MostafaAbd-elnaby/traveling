@@ -12,10 +12,9 @@
     </head>
 
     <body class="bg-gray-800 ">
-    <div class="container">
-        <h1 class="text-3xl font-bold text-white">
-            Hello world!
-        </h1>
+    <div class="container" id="app">
+            <welcome/>
     </div>
+    <script src="{{ mix('js/app.js') }}"></script>
     </body>
 </html>
